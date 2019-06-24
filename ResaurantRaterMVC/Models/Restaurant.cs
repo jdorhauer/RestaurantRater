@@ -10,6 +10,8 @@ namespace RestaurantRaterMVC.Models
     public class Restaurant
     {
         public int RestaurantID { get; set; }
+
+        [Required]
         public string Name { get; set; }
 
         [Display(Name="Food Type")]
@@ -17,7 +19,7 @@ namespace RestaurantRaterMVC.Models
         public double Rating { get; set; }
     }
 
-    public class RestaurantDbContent : DbContext
+    public class RestaurantDbContext : DbContext
     {
         public DbSet<Restaurant> Restaurants { get; set; }
     }
