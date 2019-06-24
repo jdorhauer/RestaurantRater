@@ -6,9 +6,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using ResaurantRaterMVC.Models;
+using RestaurantRaterMVC.Models;
 
-namespace ResaurantRaterMVC.Controllers
+namespace RestaurantRaterMVC.Controllers
 {
     [Authorize]
     public class ManageController : Controller

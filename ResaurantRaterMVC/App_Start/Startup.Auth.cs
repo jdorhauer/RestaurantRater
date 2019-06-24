@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using ResaurantRaterMVC.Models;
+using RestaurantRaterMVC.Models;
 
-namespace ResaurantRaterMVC
+namespace RestaurantRaterMVC
 {
     public partial class Startup
     {

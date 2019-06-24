@@ -10,9 +10,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using ResaurantRaterMVC.Models;
+using RestaurantRaterMVC.Models;
 
-namespace ResaurantRaterMVC
+namespace RestaurantRaterMVC
 {
     public class EmailService : IIdentityMessageService
     {

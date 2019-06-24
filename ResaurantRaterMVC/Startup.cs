@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(ResaurantRaterMVC.Startup))]
-namespace ResaurantRaterMVC
+[assembly: OwinStartupAttribute(typeof(RestaurantRaterMVC.Startup))]
+namespace RestaurantRaterMVC
 {
     public partial class Startup
     {
